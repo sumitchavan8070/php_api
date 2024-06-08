@@ -1,0 +1,86 @@
+# Composer
+/vendor/
+/composer.lock
+
+# Laravel specific
+/.env
+/.env.example
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/.vscode
+Homestead.yaml
+Homestead.json
+.env.testing
+
+# Caches and logs
+/storage/debugbar
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Symfony specific
+/var/
+/vendor/
+/.env
+.env.local
+.phpunit.result.cache
+/.phpunit.result.cache
+/.vscode
+
+# CakePHP specific
+/tmp/*
+/logs/*
+/vendor/*
+/config/app_local.php
+/webroot/img/captcha/*.png
+/webroot/files
+/webroot/css/cake.css
+
+# Yii specific
+/runtime/
+/vendor/
+/web/assets/
+/nbproject/private/
+/nbproject/build-impl.xml
+nbproject/genfiles.properties
+nbproject/project.properties
+nbproject/project.xml
+
+# Laravel Valet driver specific
+/.valet/
+
+# PHPStorm
+.idea/
+*.iml
+
+# Local development files
+*.local
+*.local.php
+*.local.yaml
+*.local.yml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+/.vscode/
+/*.swp
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+*.code-workspace
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.swp
+*.tmp
+
+# Other
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
